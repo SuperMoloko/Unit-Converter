@@ -1,0 +1,46 @@
+*{
+    margin:0;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+    align-items: center;
+    padding-bottom:50px;
+    color:white;
+    font-size:30pt;
+    backdrop-filter: brightness(0%);
+    background-color:black;
+    animation-name:image-snow;
+    animation-duration:4s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+
+
+}
+
+
+h1{
+    position:relative;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+    animation-direction:alternate;
+    animation-name:text-show;
+}
+
+
+
+@keyframes  text-show {
+    from{
+        opacity:100%;
+    }
+    to{
+        opacity:0%;
+    }
+}
